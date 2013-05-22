@@ -1,0 +1,28 @@
+.content-main ul{
+	overflow:hidden;
+	margin-top:30px;
+}
+	.content-main ul li{
+		margin-top:20px;
+		overflow:hidden;
+		clear:both;
+		float:left;
+		width:500px;
+	}
+	.content-main ul li.first{
+		margin-top:0;
+	}
+
+
+		.content-main img{
+			float: left;
+		}
+		.content-main a.video-description{
+			color: #9D0C04;
+			float: right;
+			text-decoration: none;
+			width:350px;
+		}
+		.content-main li:hover a.video-description{
+			text-decoration: underline;
+		}

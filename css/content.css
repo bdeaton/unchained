@@ -1,0 +1,59 @@
+	.content-secondary{
+		float:right;
+		width:838px;
+		padding-left:20px;
+		position:relative;
+		padding-top:394px;
+		padding-bottom:17px;
+		margin-top:22px;
+		background:transparent url(../img/content-divider-vertical.png) repeat-y 12px 0;
+		background:none;
+		background:url(../img/content-divider-vertical.png) repeat-y 12px 0,url(../img/bg-imagery-main.jpg) no-repeat top right;
+	}
+		#social-links{
+			position:absolute;
+			right:80px;
+			top:8px;
+			overflow:hidden;
+		}
+			#social-links li{
+				float:left;
+				margin-left:12px;
+			}
+			#social-links li.first{
+				margin-left:0;
+			}
+				#social-links li a{
+					display:block;
+					background:transparent url(../img/sprite-social.png) no-repeat 0 0;
+					width:22px;
+					height:23px;
+				}
+				#social-links li#social-twitter a{
+					width:23px;
+					height:20px;
+					background-position:0 -28px;
+				}		
+		.content-secondary .content-wrapper{
+			margin:0 81px 0 22px;
+			overflow:hidden;
+		}
+			.content-secondary h2{
+				font-size:24px;
+				font-family:"Arial";
+				font-weight:bold;
+				text-transform:uppercase;
+				float:right;
+				color:#9d0c04;
+				
+			}
+			.content-secondary .content-main{
+				clear:both;
+				font-family:"Courier";
+				font-size:14px;
+				overflow: hidden;
+			}
+				.content-secondary .content-main p{
+					line-height:18px;
+					margin-bottom:7px;
+				}

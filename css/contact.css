@@ -1,0 +1,35 @@
+form.contact{
+}
+	.indicator-required{
+		font-size:smaller;
+		float:right;
+		margin-bottom:3px;
+	}
+	.fieldset{
+		overflow:hidden;
+		margin-bottom:10px;
+		width:315px;
+	}
+		.fieldset label{
+			width:60px;
+			display:block;
+			float:left;
+		}
+		.fieldset input{
+			width:245px;
+			display:block;
+			float:right;
+		}
+		.fieldset textarea{
+			width:313px;
+			height:100px;
+		}
+		.btn-submit{
+			float:right;
+			padding:3px 6px;
+			border-radius:3px;
+			background:#eee;
+			border:1px solid #7F754D;
+			color:#7F754D;
+		}
+

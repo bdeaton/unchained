@@ -1,0 +1,104 @@
+au				#listen-filter{
+					overflow:hidden;
+					font-size:17px;
+					color:#090909;
+					margin-top:6px;
+				}
+					#listen-filter li{
+						float:left;
+						width: 20%;
+						overflow:hidden;
+					}
+					#listen-filter li.first{
+						margin-left:0;
+					}
+						#listen-filter li label{
+							display: block;
+							text-transform:uppercase;
+							float: left;
+						}
+						#listen-filter li select{
+							float: left;
+							clear:both;
+							width: 95%;
+							font-size: 11px;
+							height: 17px;
+							margin-bottom: 8px;
+							padding: 0;
+						}
+						#listen-filter li#filter-item-tempos select{
+							width:100%;	
+						}
+table{
+	width:100%;
+	border:10px solid #c6c3c3;
+	table-spacing:10px;
+	font-size:11px;
+}
+	table thead{
+		background-color:#a39f9f;
+		color:#fff;
+		text-transform:uppercase;
+	}
+		table thead tr{
+		
+		}
+			table thead tr th{
+				border-right:1px solid #c6c3c3;
+				padding:11px 11px 12px;
+			}
+	table tbody{
+		color:#090909;
+	}
+		table tbody tr{
+		
+		}
+			table tbody tr td{
+				border-right:1px solid #c6c3c3;
+				padding:4px 11px;
+				padding:4px;
+				box-shadow:0 1px 0 rgba(0, 0, 0, 0.2) inset;
+			}
+			
+			table tbody tr td.col-listen{
+				padding:0;
+			}
+			table tbody tr td.table-col1{
+				max-width:46px;
+			}
+			table tbody tr td.table-col2{
+				max-width:73px;
+			}
+			table tbody tr td.table-col3{
+				max-width:73px;
+			}
+			table tbody tr td.table-col4{
+				max-width:73px;
+			}
+			table tbody tr td.table-col5{
+				max-width:73px;
+			}
+			table tbody tr td.table-col6{
+				max-width:73px;
+			}
+			table tbody tr td.table-col7{
+				max-width:;
+			}
+			table tbody tr td.table-col8{
+				max-width:73px;
+			}
+			
+			audio{
+				float: left;
+				margin: 0;
+				padding: 0;
+				width: 200px;
+				width: 154px;
+				height: 28px;
+			}
+			table tbody tr td a{
+				text-transform:lowercase;
+				text-decoration:underline;
+				color:inherit;
+			}
+
